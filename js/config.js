@@ -1,0 +1,2 @@
+/* Edit these school settings. */
+window.SCHOOL={name:"Nyakayojo Secondary School",motto:"Toil and Achieve",email:"nyakayojos.s@gmail.com",phones:"+256 774 516434 · 0485 428060",address:"P.O. Box 462, Mbarara, Uganda",mapQuery:"Nyakayojo Secondary School, Mbarara",banks:"Bank with the school slip at Stanbic Bank A/C 9030005800675 or Centenary Bank Mbarara A/C 5010080122 (check with the office before paying)",formEndpoint:"",adminCode:"nyakayojo2026",deadline:"2026-12-31T23:59:00"};

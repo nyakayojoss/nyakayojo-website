@@ -1,0 +1,3 @@
+(window.PAGES=window.PAGES||{}).faqs=`<div class="page" id="faqs"><div class="pagehead"><div class="wrap"><h1>FAQs and policies</h1><p>Quick answers and the rules we work by.</p></div></div>
+<section class="blk"><div class="wrap split"><div><h2>Frequently asked questions</h2><div class="grid" style="margin-top:14px">${DATA.faqs.map(function(f){return'<details class="card"><summary>'+f[0]+'</summary><div class="in">'+f[1]+'</div></details>'}).join("")}</div></div>
+<div><h2>School policies</h2><div class="grid" style="margin-top:14px">${DATA.policies.map(function(f){return'<details class="card"><summary>'+f[0]+'</summary><div class="in">'+f[1]+'</div></details>'}).join("")}</div></div></div></section></div>`;

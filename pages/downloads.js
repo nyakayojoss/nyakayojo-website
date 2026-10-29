@@ -1,0 +1,3 @@
+(window.PAGES=window.PAGES||{}).downloads=`<div class="page" id="downloads"><div class="pagehead"><div class="wrap"><h1>Downloads</h1><p>Forms and documents for parents and students.</p></div></div>
+<section class="blk"><div class="wrap"><div class="grid g3">${DATA.downloads.map(function(d){return'<div class="card"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg></span><h3>'+d[1]+'</h3><p>'+d[2]+'</p><p style="margin-top:12px"><button class="btn dk" data-doc="'+d[0]+'">Download</button></p></div>'}).join("")}</div>
+<p class="lead" style="margin-top:20px;font-size:.9rem">These open as printable pages. For PDF files, place them in the assets folder and link to them.</p></div></section></div>`;

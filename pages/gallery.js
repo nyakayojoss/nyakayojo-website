@@ -1,0 +1,3 @@
+(window.PAGES=window.PAGES||{}).gallery=`<div class="page" id="gallery"><div class="pagehead"><div class="wrap"><h1>Gallery</h1><p>Life at Nyakayojo in pictures. Select a photo to enlarge it.</p></div></div>
+<section class="blk"><div class="wrap"><div class="tabs">${["all","classes","students","events"].map(function(c,i){return'<button data-filter="'+c+'"'+(i?'':' class="on"')+'>'+c.charAt(0).toUpperCase()+c.slice(1)+'</button>'}).join("")}</div>
+<div class="gal">${DATA.photos.map(fig).join("")}</div><p class="lead" style="margin-top:18px;font-size:.9rem">Add more photos to assets/images and list them in js/data.js.</p></div></section></div>`;
